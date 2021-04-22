@@ -11,5 +11,4 @@ public interface FunctionCommandant {
     boolean checkCourse(Student student);
 
     boolean checkPayForHostel(Student student);
-
 }
