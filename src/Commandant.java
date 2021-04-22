@@ -35,7 +35,6 @@ public class Commandant extends Administration implements Person, FunctionComman
     @Override
     public boolean checkPayForHostel(Student student) {
         return student.getIsPayForHostel();
-
     }
 
     @Override
@@ -81,8 +80,5 @@ public class Commandant extends Administration implements Person, FunctionComman
         System.out.println(" i " + i);
         Hostel.list_rooms.get(i).removeStudent(student);
         Hostel.students.remove(student);
-
     }
-
-
 }
