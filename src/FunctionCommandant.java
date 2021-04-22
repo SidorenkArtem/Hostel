@@ -1,5 +1,4 @@
 public interface FunctionCommandant {
-
     void ApproveAccomodate();
 
     void ApproveAviction(Student student);
