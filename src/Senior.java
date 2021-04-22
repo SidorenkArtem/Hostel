@@ -1,6 +1,5 @@
 import java.util.Map;
 
-
 public class Senior extends Administration implements Person, Personal{
 
     private Student student;
@@ -23,9 +22,6 @@ public class Senior extends Administration implements Person, Personal{
         index--;
     }
 
-
-
-
     public int checkRooms(Map<Integer, Room> map_rooms) {
         return (int) randomNumber(Hostel.personal.size() + 1, map_rooms.size() / 2);
     }
@@ -39,9 +35,7 @@ public class Senior extends Administration implements Person, Personal{
         student.getArray_comment().add(true);
     }
 
-
     @Override
     public void setRoom_address(int i) {
-
     }
 }
