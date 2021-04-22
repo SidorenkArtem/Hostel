@@ -30,7 +30,6 @@ public class Hostel {
     }
 
     protected void accomodatePersonal() {
-
             for (int count = 1; count <= personal.size(); count++) {
                 list_rooms.get(count).accomodateInRoom(personal.get(count - 1));
                 personal.get(count - 1).setRoom_address(count - 1);
