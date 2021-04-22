@@ -10,7 +10,6 @@ public class Student implements Person{
     private boolean isSenior;
     private boolean isPayForHostel;
 
-
     protected Student(){
         name = Person.createName();
         course = createCourse();
@@ -62,6 +61,4 @@ public class Student implements Person{
     private static int createCourse() {
         return (int) (Math.random() * 4) + 1;
     }
-
-
 }
